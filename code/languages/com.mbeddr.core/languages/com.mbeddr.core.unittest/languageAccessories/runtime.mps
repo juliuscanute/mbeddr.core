@@ -100,7 +100,7 @@
       <concept id="6883925235272353061" name="com.mbeddr.core.pointers.structure.SizeOfExprForExpressions" flags="ng" index="Vihyy" />
       <concept id="1595838349830846141" name="com.mbeddr.core.pointers.structure.ReferenceExpr" flags="ng" index="YInwV" />
       <concept id="5684014141267595977" name="com.mbeddr.core.pointers.structure.StringArrayType" flags="ng" index="12rfTQ">
-        <child id="5684014141267595982" name="sizeExpr" index="12rfTL" />
+        <child id="5684014141267595982" name="size" index="12rfTL" />
       </concept>
       <concept id="5355719375892497746" name="com.mbeddr.core.pointers.structure.VerbatimStringLiteral" flags="ng" index="3eV9cR" />
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
