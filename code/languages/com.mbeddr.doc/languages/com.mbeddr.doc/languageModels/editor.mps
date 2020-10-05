@@ -14,6 +14,7 @@
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="-1" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -12324,7 +12325,7 @@
             <node concept="2OqwBi" id="3cUcim$c7Gh" role="3clFbG">
               <node concept="2OqwBi" id="3cUcim$c7Gi" role="2Oq$k0">
                 <node concept="37vLTw" id="3cUcim$c7Gj" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3cUcim$c7Gb" />
+                  <ref role="3cqZAo" node="3cUcim$c7Gb" resolve="p" />
                 </node>
                 <node concept="3TrEf2" id="3cUcim$c7Gk" role="2OqNvi">
                   <ref role="3Tt5mk" to="2c95:4vQSg$Ar0eC" resolve="header" />
@@ -12335,7 +12336,7 @@
           </node>
           <node concept="3clFbF" id="3cUcim$c7Gm" role="3cqZAp">
             <node concept="37vLTw" id="3cUcim$c7Gn" role="3clFbG">
-              <ref role="3cqZAo" node="3cUcim$c7Gb" />
+              <ref role="3cqZAo" node="3cUcim$c7Gb" resolve="p" />
             </node>
           </node>
         </node>
@@ -12418,7 +12419,7 @@
           <node concept="3clFbF" id="3cUcim$c7Ih" role="3cqZAp">
             <node concept="2OqwBi" id="3cUcim$c7Ii" role="3clFbG">
               <node concept="37vLTw" id="3cUcim$c7Ij" role="2Oq$k0">
-                <ref role="3cqZAo" node="3cUcim$c7Ic" />
+                <ref role="3cqZAo" node="3cUcim$c7Ic" resolve="p" />
               </node>
               <node concept="2qgKlT" id="3cUcim$c7Ik" role="2OqNvi">
                 <ref role="37wK5l" to="4gky:519ky_SnQaO" resolve="addString" />
@@ -12428,7 +12429,7 @@
           </node>
           <node concept="3clFbF" id="3cUcim$c7Im" role="3cqZAp">
             <node concept="37vLTw" id="3cUcim$c7In" role="3clFbG">
-              <ref role="3cqZAo" node="3cUcim$c7Ic" />
+              <ref role="3cqZAo" node="3cUcim$c7Ic" resolve="p" />
             </node>
           </node>
         </node>
@@ -12440,12 +12441,12 @@
     <node concept="22hDWj" id="27yO7ubx4ll" role="22hAXT" />
     <node concept="1s_PAr" id="3cUcim$c7Hr" role="3ft7WO">
       <node concept="2kknPI" id="3cUcim$c7Hs" role="1s_PAo">
-        <ref role="2kkw0f" node="3cUcim$c7G3" />
+        <ref role="2kkw0f" node="3cUcim$c7G3" resolve="makeHeaderPar" />
       </node>
     </node>
     <node concept="1s_PAr" id="3cUcim$c7IO" role="3ft7WO">
       <node concept="2kknPI" id="3cUcim$c7IP" role="1s_PAo">
-        <ref role="2kkw0f" node="3cUcim$c7Ht" />
+        <ref role="2kkw0f" node="3cUcim$c7Ht" resolve="makeTextPar" />
       </node>
     </node>
     <node concept="2VfDsV" id="3cUcim$c7IQ" role="3ft7WO" />
